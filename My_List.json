@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+          "claude.ai",
+          "anthropic.com",
+          "snapchat.com",
+          "sc-cdn.net",
+          "xpenology.com",
+          "duckdns.org",
+          "ugreen.com",
+          "ugreen.cn",
+          "ug.link",
+          "ugnas.com",
+          "qbittorrent.org",
+          "sagernet.org",
+          "4pda.to",
+          "4pda.ws",
+          "habr.com",
+          "openwrt.org",
+          "facebook.com",
+          "rutracker.org",
+          "rutracker.net",
+          "rutracker.nl",
+          "rutracker.cc",
+          "2ip.io",
+          "hostvds.com",
+          "ntc.party",
+          "garmin.com",
+          "garmincdn.com",
+          "garmin.cn",
+          "openweather.com",
+          "scdn.co",
+          "reddit.com",
+          "airbnb.com",
+          "muscache.com",
+          "airbnb-aws.com",
+          "airbnb.net",
+          "airbnbmail.com",
+          "tmdb.org",
+          "themoviedb.org",
+          "runwayml.com"
+      ]
+    }
+  ]
+}
