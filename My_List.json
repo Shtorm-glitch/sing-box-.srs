@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-          "imagetmdb.com",
           "claude.ai",
           "anthropic.com",
           "snapchat.com",
@@ -40,6 +39,7 @@
           "airbnbmail.com",
           "tmdb.org",
           "themoviedb.org",
+          "imagetmdb.com",
           "runwayml.com"
       ]
     }
