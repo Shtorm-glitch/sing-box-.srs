@@ -1,1 +1,88 @@
-
+{
+  "version": 2,
+  "rules": [
+    {
+      "ip_cidr": [
+        "91.108.20.0/22",
+        "2001:b28:f23c::/48"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "91.108.4.0/22",
+        "91.108.8.0/22",
+        "91.108.58.0/23",
+        "95.161.64.0/20",
+        "149.154.160.0/21",
+        "2001:67c:4e8::/48"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "claude.ai",
+        "anthropic.com",
+        "snapchat.com",
+        "sc-cdn.net",
+        "xpenology.com",
+        "duckdns.org",
+        "ugreen.com",
+        "ugreen.cn",
+        "ug.link",
+        "ugnas.com",
+        "qbittorrent.org",
+        "4pda.to",
+        "4pda.ws",
+        "habr.com",
+        "openwrt.org",
+        "facebook.com",
+        "rutracker.org",
+        "rutracker.net",
+        "rutracker.nl",
+        "rutracker.cc",
+        "2ip.io",
+        "hostvds.com",
+        "ntc.party",
+        "garmin.com",
+        "garmincdn.com",
+        "garmin.cn",
+        "openweather.com",
+        "scdn.co",
+        "reddit.com",
+        "airbnb.com",
+        "muscache.com",
+        "airbnb-aws.com",
+        "airbnb.net",
+        "airbnbmail.com",
+        "tmdb.org",
+        "themoviedb.org",
+        "imagetmdb.com",
+        "runwayml.com"
+      ]
+    },
+    {
+      "domain": [
+        "openaiapi-site.azureedge.net",
+        "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+        "openaicom.imgix.net",
+        "openaicomproductionae4b.blob.core.windows.net",
+        "production-openaicom-storage.azureedge.net",
+        "o33249.ingest.sentry.io",
+        "browser-intake-datadoghq.com"
+      ],
+      "domain_suffix": [
+        "chat.com",
+        "chatgpt.com",
+        "crixet.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "openai.com",
+        "sora.com",
+        "chatgpt.livekit.cloud",
+        "host.livekit.cloud",
+        "turn.livekit.cloud",
+        "openai.com.cdn.cloudflare.net"
+      ],
+      "domain_regex": "^chatgpt-async-webps-prod-\\S+-\\d+\\.webpubsub\\.azure\\.com$"
+    }
+  ]
+}
