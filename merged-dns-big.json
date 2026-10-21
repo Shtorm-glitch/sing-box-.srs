@@ -1,3 +1,9 @@
+// Full domain-only projection of Merged.json. No IP CIDR rules.
+// Source: https://github.com/Shtorm-glitch/sing-box-.srs/blob/858272b2a9209f6147b8b07da7fc463f01400f97/Merged.json
+// Individual upstream rule-set names were not recorded in the source;
+// their complete provenance is unknown. All source domain rules are retained.
+// Extra resources outside the source: none.
+// Rebuild the matching SRS after changing rules. Automatic updates are not configured.
 {
   "version": 2,
   "rules": [
