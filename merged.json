@@ -9,6 +9,7 @@
 // Kinozal: kinozal.tv, kinozal.me, kinozal.guru.
 // NNM-Club: nnmclub.to, nnm-club.me, nnm-club.name.
 // Rustorka: rustorka.com, rustorka.net.
+// SagerNet: sagernet.org (manual addition).
 // Rebuild the matching SRS after changing rules. Automatic updates are not configured.
 // Additional rule set: geo/geoip/telegram (MetaCubeX/meta-rules-dat).
 // Telegram source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/24a931c326f2a4765eb8320fae1255b2baa0d53a/geo/geoip/telegram.json
@@ -703,6 +704,7 @@
         "rutracker.org",
         "rutracker.wiki",
         "rutrk.org",
+        "sagernet.org",
         "sc-cdn.net",
         "sc-gw.com",
         "sc-static.net",
