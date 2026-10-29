@@ -9,6 +9,7 @@
 // NNM-Club: nnmclub.to, nnm-club.me, nnm-club.name.
 // Rustorka: rustorka.com, rustorka.net.
 // SagerNet: sagernet.org (manual addition).
+// Owner additions 2026-10-29: agentsmirror.com, reliclink.com, ugreen.com, ugoos.com.
 // Rebuild the matching SRS after changing rules. Automatic updates are not configured.
 {
   "version": 2,
@@ -59,6 +60,7 @@
         "acheterfollowersinstagram.com",
         "ads.youtube.com",
         "advancediddetection.com",
+        "agentsmirror.com",
         "ai.studio",
         "aicode.googleapis.com",
         "aida.googleapis.com",
@@ -684,6 +686,7 @@
         "redditstatic.com",
         "redditstatus.com",
         "redkix.com",
+        "reliclink.com",
         "robinfrontend-pa.googleapis.com",
         "rocksdb.com",
         "rocksdb.net",
@@ -740,6 +743,8 @@
         "toplayerserver.com",
         "turn.livekit.cloud",
         "tx.me",
+        "ugreen.com",
+        "ugoos.com",
         "usercontent.dev",
         "viewpointsfromfacebook.com",
         "wa.me",
