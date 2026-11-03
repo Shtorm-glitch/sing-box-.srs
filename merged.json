@@ -1,21 +1,22 @@
-// Mixed routing rule set: curated domains plus Telegram IP CIDRs.
-// For DNS use merged-dns.json / merged-dns.srs, not this mixed set.
-// Upstream: https://github.com/MetaCubeX/meta-rules-dat/tree/sing/geo/geosite
-// Upstream snapshot: 24a931c326f2a4765eb8320fae1255b2baa0d53a
-// Merged rule sets: google-deepmind, google-gemini, youtube, telegram, meta,
-// openai, rutracker, snap, pinterest, 4pda, reddit.
-// Extra resources outside upstream rule sets (domain_suffix includes subdomains):
-// Rutor: rutor.info, rutor.is, rutor.org.
-// Kinozal: kinozal.tv, kinozal.me, kinozal.guru.
-// NNM-Club: nnmclub.to, nnm-club.me, nnm-club.name.
-// Rustorka: rustorka.com, rustorka.net.
-// SagerNet: sagernet.org (manual addition).
+// Mixed routing rule set: curated domains plus Telegram IP CIDRs.
+// For DNS use merged-dns.json / merged-dns.srs, not this mixed set.
+// Upstream: https://github.com/MetaCubeX/meta-rules-dat/tree/sing/geo/geosite
+// Upstream snapshot: 24a931c326f2a4765eb8320fae1255b2baa0d53a
+// Merged rule sets: google-deepmind, google-gemini, youtube, telegram, meta,
+// openai, rutracker, snap, pinterest, 4pda, reddit.
+// Extra resources outside upstream rule sets (domain_suffix includes subdomains):
+// Rutor: rutor.info, rutor.is, rutor.org.
+// Kinozal: kinozal.tv, kinozal.me, kinozal.guru.
+// NNM-Club: nnmclub.to, nnm-club.me, nnm-club.name.
+// Rustorka: rustorka.com, rustorka.net.
+// SagerNet: sagernet.org (manual addition).
 // Owner additions 2026-10-29: agentsmirror.com, reliclink.com, ugreen.com, ugoos.com.
 // Owner addition 2026-11-03: ugnas.com (domain_suffix includes subdomains).
-// Rebuild the matching SRS after changing rules. Automatic updates are not configured.
-// Additional rule set: geo/geoip/telegram (MetaCubeX/meta-rules-dat).
-// Telegram source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/24a931c326f2a4765eb8320fae1255b2baa0d53a/geo/geoip/telegram.json
-// Owner additions 2026-11-02 (domain_suffix): open-meteo.com, jsdelivr.net.
+// Rebuild the matching SRS after changing rules. Automatic updates are not configured.
+// Additional rule set: geo/geoip/telegram (MetaCubeX/meta-rules-dat).
+// Telegram source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/24a931c326f2a4765eb8320fae1255b2baa0d53a/geo/geoip/telegram.json
+// Owner additions 2026-11-02 (domain_suffix): open-meteo.com, jsdelivr.net.
+// Owner additions 2026-11-03 (domain_suffix): themoviedb.org, tmdb.org.
 {
   "version": 2,
   "rules": [
@@ -743,15 +744,17 @@
         "thefacebook.net",
         "thefind.com",
         "theinstagramhack.com",
+        "themoviedb.org",
         "threads.com",
         "threads.net",
+        "tmdb.org",
         "ton.org",
         "toncenter.com",
         "toplayerserver.com",
         "turn.livekit.cloud",
         "tx.me",
-        "ugoos.com",
         "ugnas.com",
+        "ugoos.com",
         "ugreen.com",
         "usercontent.dev",
         "viewpointsfromfacebook.com",
