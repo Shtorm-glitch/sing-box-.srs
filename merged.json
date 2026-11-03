@@ -10,7 +10,8 @@
 // NNM-Club: nnmclub.to, nnm-club.me, nnm-club.name.
 // Rustorka: rustorka.com, rustorka.net.
 // SagerNet: sagernet.org (manual addition).
-// Owner additions 2026-10-29: agentsmirror.com, reliclink.com, ugreen.com, ugoos.com.
+// Owner additions 2026-10-29: agentsmirror.com, reliclink.com, ugreen.com, ugoos.com.
+// Owner addition 2026-11-03: ugnas.com (domain_suffix includes subdomains).
 // Rebuild the matching SRS after changing rules. Automatic updates are not configured.
 // Additional rule set: geo/geoip/telegram (MetaCubeX/meta-rules-dat).
 // Telegram source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/24a931c326f2a4765eb8320fae1255b2baa0d53a/geo/geoip/telegram.json
@@ -750,6 +751,7 @@
         "turn.livekit.cloud",
         "tx.me",
         "ugoos.com",
+        "ugnas.com",
         "ugreen.com",
         "usercontent.dev",
         "viewpointsfromfacebook.com",
