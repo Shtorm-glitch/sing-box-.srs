@@ -14,8 +14,7 @@
 // Rebuild the matching SRS after changing rules. Automatic updates are not configured.
 // Owner additions 2026-11-02 (domain_suffix): open-meteo.com, jsdelivr.net.
 // Owner additions 2026-11-03 (domain_suffix): themoviedb.org, tmdb.org.
-{
-  "version": 2,
+// Owner addition 2026-11-12 (domain_suffix): ntc.party.{  "version": 2,
   "rules": [
     {
       "domain": [
@@ -579,8 +578,7 @@
         "nextstop.com",
         "nnm-club.me",
         "nnm-club.name",
-        "nnmclub.to",
-        "notebook.google",
+        "nnmclub.to",        "ntc.party",        "notebook.google",
         "notebook.google.com",
         "notebooklm.google",
         "notebooklm.google.com",
